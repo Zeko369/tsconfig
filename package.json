@@ -12,6 +12,6 @@
   },
   "files": [
     "tsconfig.json",
-    "./js/tsconfig.json"
+    "js/tsconfig.json"
   ]
 }
