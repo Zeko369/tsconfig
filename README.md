@@ -1,0 +1,1 @@
+# Personal tsconfig thingy
