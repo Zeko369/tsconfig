@@ -1,0 +1,16 @@
+{
+  "name": "zeko369-tsconfig",
+  "version": "1.0.0",
+  "main": "tsconfig.json",
+  "author": {
+    "name": "Fran Zekan",
+    "email": "zekan.fran369@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "files": [
+    "tsconfig.json"
+  ]
+}
