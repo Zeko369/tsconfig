@@ -1,6 +1,6 @@
 {
   "name": "zeko369-tsconfig",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "cli/index.js",
   "author": {
     "name": "Fran Zekan",
