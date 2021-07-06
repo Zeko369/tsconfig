@@ -12,8 +12,9 @@
     "typescript": "^4.2.4"
   },
   "files": [
-    "tsconfig.json",
-    "js/tsconfig.json"
+    "configs/tsconfig.json",
+    "configs/js/tsconfig.json",
+    "examples/*.json"
   ],
   "dependencies": {
     "cli-select": "^1.1.2"
