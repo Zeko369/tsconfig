@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+const { spawnSync } = require("child_process");
 const { join } = require("path");
 const fs = require("fs/promises");
 
@@ -11,6 +14,11 @@ const files = {
 
 (async () => {
   try {
+    const cli = spawnSync("yarn", ["add", "--dev", "typescript", "zeko369-tsconfig"], {});
+    if (cli.error) {
+      spawnSync("npm", ["install", "--only=dev", "typescript", "zeko369-tsconfig"], {});
+    }
+
     const res = await cliSelect({ values: ["TS", "JS", "JS no check"] });
     await fs.copyFile(files[res.id], "tsconfig.json");
   } catch (err) {
