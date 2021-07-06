@@ -6,6 +6,9 @@
     "name": "Fran Zekan",
     "email": "zekan.fran369@gmail.com"
   },
+  "bin": {
+    "zeko369-tsconfig": "./cli/index.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.0.0",
